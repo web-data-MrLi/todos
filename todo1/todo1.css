@@ -1,0 +1,349 @@
+@charset "UTF-8";
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 42.66667px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 51.2px;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  html {
+    font-size: 54.93333px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 55.2px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 102.4px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 106.66667px;
+  }
+}
+
+@media screen and (min-width: 510px) {
+  html {
+    font-size: 68px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 213.33333px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  html {
+    font-size: 192px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 85.33333px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F5F7F7;
+  overflow: hidden;
+}
+
+.cc {
+  width: 100%;
+  height: 12.3rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.star {
+  padding-top: 1rem;
+  padding-left: 0.2rem;
+}
+
+.star a {
+  color: #000000;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  text-decoration: none;
+}
+
+.head {
+  width: 100%;
+  height: 1.2rem;
+  padding: 0.3rem 0.2rem 0.1rem 0.2rem;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  color: #000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.add {
+  width: 100%;
+  height: 0.7rem;
+  position: absolute;
+  left: 0;
+  top: -6rem;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 0.4rem;
+}
+
+.ct {
+  width: 100%;
+  height: 100%;
+  background: #D0E2F6;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+}
+
+ul {
+  width: 100%;
+  height: 12.3rem;
+  padding: 0.1rem 0.1rem;
+  padding-top: 1.3rem;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid #fff;
+  overflow: scroll;
+}
+
+li {
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  border: 1px solid #D0E2F6;
+  padding: 0.1rem 0.5rem;
+  margin-bottom: 0.2rem;
+  position: relative;
+  border-radius: 10px;
+}
+
+.dian {
+  width: 100%;
+  height: 1rem;
+  background: #C56E41;
+  position: fixed;
+  z-index: 9999;
+}
+
+.dian .iconfont {
+  width: 1rem;
+  height: 1rem;
+  float: right;
+  text-align: center;
+  line-height: 1rem;
+}
+
+.process {
+  position: absolute;
+  width: 5rem;
+  height: 0.04rem;
+  background: #7b7668;
+  margin-top: 0.33rem;
+  border-radius: 1px;
+}
+
+.process1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 1px;
+  background: #7b7668;
+}
+
+.process2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 1px;
+  background: #ff3838;
+}
+
+.pi {
+  position: absolute;
+  z-index: 5;
+  background: #fff;
+  width: 0.3rem;
+  height: 0.3rem;
+  left: -0.15rem;
+  top: -0.15rem;
+  border-radius: 50%;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-size: 18px;
+  line-height: 0.8rem;
+}
+
+.delete {
+  position: absolute;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: url(../image/1.png);
+  color: #fff;
+  right: 0.2rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  line-height: 0.4rem;
+  text-align: center;
+  font-size: 18px;
+  display: none;
+  background-size: cover;
+}
+
+.done .delete {
+  display: block;
+}
+
+.done .content {
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.footer {
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  background: #fff;
+  bottom: 0;
+  border-top: 1px solid #D0E2F6;
+}
+
+.footer div {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1rem;
+  color: #000;
+  font-weight: 500;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.footer a {
+  display: block;
+  margin-bottom: -1rem;
+  color: #ccc;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer .active {
+  color: #C56E41;
+}
+
+.foot {
+  width: 33.33%;
+  height: 3rem;
+  position: absolute;
+  background: #fff;
+  right: 0;
+  top: 1rem;
+  display: none;
+  z-index: 9999;
+}
+
+.foot div {
+  width: 100%;
+  height: 1rem;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1rem;
+  color: #000;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.foot .ac {
+  color: #fff;
+  background: #C56E41;
+}
+
+.complete {
+  box-sizing: border-box;
+  border-top: 1px solid #D0E2F6;
+  border-bottom: 1px solid #D0E2F6;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  /* project id："162879" */
+  src: url("../font/iconfont.eot");
+  src: url("../font/iconfont.eot") format("embedded-opentype"), url("../font/iconfont.woff") format("woff"), url("../font/iconfont.ttf") format("truetype"), url("../font/iconfont.svg#iconfont") format("svg");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+}
